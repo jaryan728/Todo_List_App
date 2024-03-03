@@ -1,0 +1,50 @@
+.th
+{
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: rgb(78, 224, 224);
+  
+    
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(91, 129, 31);
+    border-radius: 10px;
+   
+    padding: 20px;
+
+}
+.itemvalue{
+    display: flex;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.itemvalue div
+{
+    padding: 20px;
+  
+}
+.del
+{
+    font-size: 30px;
+    text-align: center;
+    color: red;
+}
+.btn button
+{
+    
+    border-radius: 10px;
+    width: 150px;
+}
